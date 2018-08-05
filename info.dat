@@ -1,0 +1,15 @@
+high data rate: 1Gbps -> 3Gbps
+high car speed: 28m/s -> approximately 100Km/s
+car speed: 17m/s -> approximately 60Km/s
+slow car speed: 8m/s -> approximately 30Km/s
+human speed: 1m/s -> approximately 30Km/s
+path distance: 500m
+application datarate: 1000Mbps
+
+car_without_block: 5MB recv buffer, 5MB send buffer
+car_without_block2: 1GB recv buffer, 1GB send buffer
+car_without_block3: 5MB recv buffre, 5MB send buffer, extend path distance to 1000m
+
+car_without_block_1st_model: change path loss model "BuildingsObstaclePropagationLossModel" -> "MmWavePropagationLossModel"
+car_without_block_2nd_model: change path loss model "BuildingsObstaclePropagationLossModel" -> "MmWave3gppPropagationLossModel"
+car_without_block_3rd_model: change path loss model "BuildingsObstaclePropagationLossModel" -> "MmWave3gppBuildingPropagationLossModel"
