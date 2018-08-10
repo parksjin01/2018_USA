@@ -1,0 +1,280 @@
+nohup: ignoring input and appending output to 'nohup.out'
+fastSwitching 1 rlcAmEnabled 1 bufferSize 1 x2Latency 1000 mmeLatency 10000 mobileSpeed 8 tcp 1
+---- mmh UseIdealRrc 0
+Building:	-100	0	0	65	0	15
+
+Building:	15	80	0	65	0	15
+
+Building:	95	160	0	65	0	15
+
+Building:	175	240	0	65	0	15
+
+Building:	255	320	0	65	0	15
+
+Building:	335	400	0	65	0	15
+
+Building:	415	435	0	65	0	15
+
+DL freq: 2.12e+09
+UL freq: 1.93e+09
+eNB 2 MmWaveSpectrumPhy 0x1331d60
+eNB 3 MmWaveSpectrumPhy 0x1342760
+UE 1 MmWaveSpectrumPhy 0x1352840
+SetBeamformingVector between UE 0x1352580 and enbDevice 0x13345a0
+UMi-StreetCanyon scenario, channel condition is fixed to be n, h_BS=10,h_UT=1.6
+SetBeamformingVector between UE 0x1352580 and enbDevice 0x1345270
+UMi-StreetCanyon scenario, channel condition is fixed to be n, h_BS=10,h_UT=1.6
+m_lteOutputFilename ./mcLteSwitchStats_1_2_05_08_2018_04_20_35.txt
+Position +****************************** 0:-5:1.6 at time 0.5
+0x136e5e0
+Throughput	0.5	0	0
+
+Position +****************************** 8:-5:1.6 at time 1.5
+0x136e5e0
+Throughput	1.5	18.0544	0
+
+Position +****************************** 16:-5:1.6 at time 2.5
+0x136e5e0
+Throughput	2.5	22.7808	0
+
+Position +****************************** 24:-5:1.6 at time 3.5
+0x136e5e0
+Throughput	3.5	35.5712	0
+
+Position +****************************** 32:-5:1.6 at time 4.5
+0x136e5e0
+Throughput	4.5	35.4592	0
+
+Position +****************************** 40:-5:1.6 at time 5.5
+0x136e5e0
+Throughput	5.5	35.5376	0
+
+Position +****************************** 48:-5:1.6 at time 6.5
+0x136e5e0
+Throughput	6.5	35.5264	0
+
+Position +****************************** 56:-5:1.6 at time 7.5
+0x136e5e0
+Throughput	7.5	35.5264	0
+
+Position +****************************** 64:-5:1.6 at time 8.5
+0x136e5e0
+Throughput	8.5	35.5264	0
+
+Position +****************************** 72:-5:1.6 at time 9.5
+0x136e5e0
+Throughput	9.5	35.5376	0
+
+Position +****************************** 80:-5:1.6 at time 10.5
+0x136e5e0
+Throughput	10.5	35.5264	0
+
+Position +****************************** 88:-5:1.6 at time 11.5
+0x136e5e0
+Throughput	11.5	35.5376	0
+
+Position +****************************** 96:-5:1.6 at time 12.5
+0x136e5e0
+Throughput	12.5	35.5264	0
+
+Position +****************************** 104:-5:1.6 at time 13.5
+0x136e5e0
+Throughput	13.5	22.064	0
+
+Position +****************************** 112:-5:1.6 at time 14.5
+0x136e5e0
+Throughput	14.5	41.5296	0
+
+Position +****************************** 120:-5:1.6 at time 15.5
+0x136e5e0
+Throughput	15.5	35.5376	0
+
+Position +****************************** 128:-5:1.6 at time 16.5
+0x136e5e0
+Throughput	16.5	35.5264	0
+
+Position +****************************** 136:-5:1.6 at time 17.5
+0x136e5e0
+Throughput	17.5	35.5376	0
+
+Position +****************************** 144:-5:1.6 at time 18.5
+0x136e5e0
+Throughput	18.5	35.5264	0
+
+Position +****************************** 152:-5:1.6 at time 19.5
+0x136e5e0
+Throughput	19.5	35.5264	0
+
+Position +****************************** 160:-5:1.6 at time 20.5
+0x136e5e0
+Throughput	20.5	35.5376	0
+
+Position +****************************** 168:-5:1.6 at time 21.5
+0x136e5e0
+Throughput	21.5	35.5264	0
+
+UE register to enb 3
+Position +****************************** 176:-5:1.6 at time 22.5
+0x136e5e0
+Throughput	22.5	33.5216	0
+
+Position +****************************** 184:-5:1.6 at time 23.5
+0x136e5e0
+Throughput	23.5	10.0128	0
+
+Position +****************************** 192:-5:1.6 at time 24.5
+0x136e5e0
+Throughput	24.5	13.3616	0
+
+Position +****************************** 200:-5:1.6 at time 25.5
+0x136e5e0
+Throughput	25.5	26.6112	0
+
+Position +****************************** 208:-5:1.6 at time 26.5
+0x136e5e0
+Throughput	26.5	32.704	0
+
+Position +****************************** 216:-5:1.6 at time 27.5
+0x136e5e0
+Throughput	27.5	34.5968	0
+
+Position +****************************** 224:-5:1.6 at time 28.5
+0x136e5e0
+Throughput	28.5	35.5376	0
+
+Position +****************************** 232:-5:1.6 at time 29.5
+0x136e5e0
+Throughput	29.5	35.5376	0
+
+Position +****************************** 240:-5:1.6 at time 30.5
+0x136e5e0
+Throughput	30.5	35.5264	0
+
+Position +****************************** 248:-5:1.6 at time 31.5
+0x136e5e0
+Throughput	31.5	35.5376	0
+
+Position +****************************** 256:-5:1.6 at time 32.5
+0x136e5e0
+Throughput	32.5	35.5264	0
+
+Position +****************************** 264:-5:1.6 at time 33.5
+0x136e5e0
+Throughput	33.5	35.5264	0
+
+Position +****************************** 272:-5:1.6 at time 34.5
+0x136e5e0
+Throughput	34.5	35.5376	0
+
+Position +****************************** 280:-5:1.6 at time 35.5
+0x136e5e0
+Throughput	35.5	25.5696	0
+
+Position +****************************** 288:-5:1.6 at time 36.5
+0x136e5e0
+Throughput	36.5	35.9632	0
+
+Position +****************************** 296:-5:1.6 at time 37.5
+0x136e5e0
+Throughput	37.5	37.4528	0
+
+Position +****************************** 304:-5:1.6 at time 38.5
+0x136e5e0
+Throughput	38.5	36.4896	0
+
+Position +****************************** 312:-5:1.6 at time 39.5
+0x136e5e0
+Throughput	39.5	39.4464	0
+
+Position +****************************** 320:-5:1.6 at time 40.5
+0x136e5e0
+Throughput	40.5	35.5376	0
+
+Position +****************************** 328:-5:1.6 at time 41.5
+0x136e5e0
+Throughput	41.5	22.9488	0
+
+Position +****************************** 336:-5:1.6 at time 42.5
+0x136e5e0
+Throughput	42.5	35.4256	0
+
+Position +****************************** 344:-5:1.6 at time 43.5
+0x136e5e0
+Throughput	43.5	35.5376	0
+
+Position +****************************** 352:-5:1.6 at time 44.5
+0x136e5e0
+Throughput	44.5	35.5376	0
+
+Position +****************************** 360:-5:1.6 at time 45.5
+0x136e5e0
+Throughput	45.5	35.5264	0
+
+Position +****************************** 368:-5:1.6 at time 46.5
+0x136e5e0
+Throughput	46.5	35.5376	0
+
+Position +****************************** 376:-5:1.6 at time 47.5
+0x136e5e0
+Throughput	47.5	35.5264	0
+
+Position +****************************** 384:-5:1.6 at time 48.5
+0x136e5e0
+Throughput	48.5	35.5376	0
+
+Position +****************************** 392:-5:1.6 at time 49.5
+0x136e5e0
+Throughput	49.5	35.5264	0
+
+Position +****************************** 400:-5:1.6 at time 50.5
+0x136e5e0
+Throughput	50.5	154.022	0
+
+Position +****************************** 408:-5:1.6 at time 51.5
+0x136e5e0
+Throughput	51.5	316.702	0
+
+Position +****************************** 416:-5:1.6 at time 52.5
+0x136e5e0
+Throughput	52.5	428.96	0
+
+Position +****************************** 424:-5:1.6 at time 53.5
+0x136e5e0
+Throughput	53.5	432.522	0
+
+Position +****************************** 432:-5:1.6 at time 54.5
+0x136e5e0
+Throughput	54.5	472.226	0
+
+Position +****************************** 440:-5:1.6 at time 55.5
+0x136e5e0
+Throughput	55.5	50.3104	0
+
+Position +****************************** 448:-5:1.6 at time 56.5
+0x136e5e0
+Throughput	56.5	35.5264	0
+
+Position +****************************** 456:-5:1.6 at time 57.5
+0x136e5e0
+Throughput	57.5	35.5376	0
+
+Position +****************************** 464:-5:1.6 at time 58.5
+0x136e5e0
+Throughput	58.5	35.5376	0
+
+Position +****************************** 472:-5:1.6 at time 59.5
+0x136e5e0
+Throughput	59.5	35.5264	0
+
+Position +****************************** 480:-5:1.6 at time 60.5
+0x136e5e0
+Throughput	60.5	35.5376	0
+
+Position +****************************** 488:-5:1.6 at time 61.5
+0x136e5e0
+Throughput	61.5	35.5264	0
+
+Position +****************************** 496:-5:1.6 at time 62.5
+0x136e5e0
+Throughput	62.5	35.5376	0
+

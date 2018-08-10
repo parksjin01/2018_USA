@@ -20,6 +20,11 @@ def draw(file_name):
     plt.title(" ".join(file_name.split(".")[0].split("_")) + " (No HARQ)")
     plt.xlabel("Time")
     plt.ylabel("Throughput(Mbps)")
+    if file_name == "3GPP_car_without_block.log":
+        print time
+        print throughput[1:]
+        print len(time)
+        print len(throughput[1:])
 
     plt.grid(True)
 
@@ -28,3 +33,4 @@ def draw(file_name):
     plt.legend(loc="upper right", frameon=True)
     plt.savefig(target_dir + file_name.split(".")[0] + "_throughput")
     plt.close()
+

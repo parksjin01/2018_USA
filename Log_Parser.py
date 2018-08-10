@@ -20,6 +20,7 @@ def parse(file_name):
     with open(target_dir+file_name.split(".")[0]+".dat", 'w') as f:
         f.write(enb1[0] + "\t" + enb2[0] + "\t" + used[0] + "\n")
         idx2 = 1
+        print len(enb1), len(enb2), len(used)
         for idx in xrange(1, min(len(enb1), len(enb2))):
             if used[idx2] == "-inf":
                 f.write(enb1[idx] + "\t" + enb2[idx] + "\t" + "0" + "\n")

@@ -1,0 +1,104 @@
+nohup: ignoring input and appending output to 'nohup.out'
+fastSwitching 1 rlcAmEnabled 1 bufferSize 1 x2Latency 1000 mmeLatency 10000 mobileSpeed 28 tcp 1
+---- mmh UseIdealRrc 0
+Building:	-100	0	0	65	0	15
+
+Building:	15	80	0	65	0	15
+
+Building:	95	160	0	65	0	15
+
+Building:	175	240	0	65	0	15
+
+Building:	255	320	0	65	0	15
+
+Building:	335	400	0	65	0	15
+
+Building:	415	435	0	65	0	15
+
+DL freq: 2.12e+09
+UL freq: 1.93e+09
+eNB 2 MmWaveSpectrumPhy 0x10a7d60
+eNB 3 MmWaveSpectrumPhy 0x10b8760
+UE 1 MmWaveSpectrumPhy 0x10c8840
+SetBeamformingVector between UE 0x10c8580 and enbDevice 0x10aa5a0
+UMi-StreetCanyon scenario, channel condition is fixed to be n, h_BS=10,h_UT=1.6
+SetBeamformingVector between UE 0x10c8580 and enbDevice 0x10bb270
+UMi-StreetCanyon scenario, channel condition is fixed to be n, h_BS=10,h_UT=1.6
+m_lteOutputFilename ./mcLteSwitchStats_1_2_05_08_2018_04_20_18.txt
+Position +****************************** 0:-5:1.6 at time 0.5
+0x10e45e0
+Throughput	0.5	0	0
+
+UE register to enb 2
+Position +****************************** 28:-5:1.6 at time 1.5
+0x10e45e0
+Throughput	1.5	23.7664	0
+
+Position +****************************** 56:-5:1.6 at time 2.5
+0x10e45e0
+Throughput	2.5	19.6112	0
+
+Position +****************************** 84:-5:1.6 at time 3.5
+0x10e45e0
+Throughput	3.5	17.5056	0
+
+Position +****************************** 112:-5:1.6 at time 4.5
+0x10e45e0
+Throughput	4.5	31.7744	0
+
+Position +****************************** 140:-5:1.6 at time 5.5
+0x10e45e0
+Throughput	5.5	35.5376	0
+
+Position +****************************** 168:-5:1.6 at time 6.5
+0x10e45e0
+Throughput	6.5	35.5376	0
+
+Position +****************************** 196:-5:1.6 at time 7.5
+0x10e45e0
+Throughput	7.5	35.5264	0
+
+Position +****************************** 224:-5:1.6 at time 8.5
+0x10e45e0
+Throughput	8.5	35.5376	0
+
+Position +****************************** 252:-5:1.6 at time 9.5
+0x10e45e0
+Throughput	9.5	35.5264	0
+
+Position +****************************** 280:-5:1.6 at time 10.5
+0x10e45e0
+Throughput	10.5	35.5376	0
+
+Position +****************************** 308:-5:1.6 at time 11.5
+0x10e45e0
+Throughput	11.5	35.5264	0
+
+Position +****************************** 336:-5:1.6 at time 12.5
+0x10e45e0
+Throughput	12.5	35.5264	0
+
+Position +****************************** 364:-5:1.6 at time 13.5
+0x10e45e0
+Throughput	13.5	35.5376	0
+
+Position +****************************** 392:-5:1.6 at time 14.5
+0x10e45e0
+Throughput	14.5	35.5264	0
+
+Position +****************************** 420:-5:1.6 at time 15.5
+0x10e45e0
+Throughput	15.5	35.5376	0
+
+Position +****************************** 448:-5:1.6 at time 16.5
+0x10e45e0
+Throughput	16.5	35.5264	0
+
+Position +****************************** 476:-5:1.6 at time 17.5
+0x10e45e0
+Throughput	17.5	35.5264	0
+
+Position +****************************** 504:-5:1.6 at time 18.5
+0x10e45e0
+Throughput	18.5	35.5376	0
+

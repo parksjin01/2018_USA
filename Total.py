@@ -7,10 +7,13 @@ import Draw_Block
 if __name__ == '__main__':
     file = os.listdir("Log")
     for name in file:
-        Log_Parser.parse(name)
+        try:
+            Log_Parser.parse(name)
+        except:
+            pass
         try:
             Draw_Throughput.draw(name)
-        except:
+        except Exception ,e:
             pass
         try:
             Draw_Block.draw(name)
@@ -19,4 +22,7 @@ if __name__ == '__main__':
 
     file = os.listdir("Raw")
     for name in file:
-        Draw_Graph.draw(name)
+        try:
+            Draw_Graph.draw(name)
+        except:
+            pass

@@ -1,0 +1,150 @@
+nohup: ignoring input and appending output to 'nohup.out'
+fastSwitching 1 rlcAmEnabled 1 bufferSize 1 x2Latency 1000 mmeLatency 10000 mobileSpeed 17 tcp 1
+---- mmh UseIdealRrc 0
+Building:	-100	0	0	65	0	15
+
+Building:	15	80	0	65	0	15
+
+Building:	95	160	0	65	0	15
+
+Building:	175	240	0	65	0	15
+
+Building:	255	320	0	65	0	15
+
+Building:	335	400	0	65	0	15
+
+Building:	415	435	0	65	0	15
+
+DL freq: 2.12e+09
+UL freq: 1.93e+09
+eNB 2 MmWaveSpectrumPhy 0x20e0ce0
+eNB 3 MmWaveSpectrumPhy 0x20f16e0
+UE 1 MmWaveSpectrumPhy 0x21017c0
+SetBeamformingVector between UE 0x2101500 and enbDevice 0x20e3520
+UMi-StreetCanyon scenario, channel condition is fixed to be n, h_BS=10,h_UT=1.6
+SetBeamformingVector between UE 0x2101500 and enbDevice 0x20f41f0
+UMi-StreetCanyon scenario, channel condition is fixed to be n, h_BS=10,h_UT=1.6
+m_lteOutputFilename ./mcLteSwitchStats_1_2_05_08_2018_03_26_53.txt
+Position +****************************** 0:-5:1.6 at time 0.5
+0x211d570
+Throughput	0.5	0	0
+
+Position +****************************** 17:-5:1.6 at time 1.5
+0x211d570
+Throughput	1.5	18.0544	0
+
+Position +****************************** 34:-5:1.6 at time 2.5
+0x211d570
+Throughput	2.5	22.7808	0
+
+UE register to enb 2
+Position +****************************** 51:-5:1.6 at time 3.5
+0x211d570
+Throughput	3.5	31.0464	0
+
+Position +****************************** 68:-5:1.6 at time 4.5
+0x211d570
+Throughput	4.5	16.1504	0
+
+Position +****************************** 85:-5:1.6 at time 5.5
+0x211d570
+Throughput	5.5	25.6144	0
+
+Position +****************************** 102:-5:1.6 at time 6.5
+0x211d570
+Throughput	6.5	38.2928	0
+
+Position +****************************** 119:-5:1.6 at time 7.5
+0x211d570
+Throughput	7.5	37.3856	0
+
+Position +****************************** 136:-5:1.6 at time 8.5
+0x211d570
+Throughput	8.5	36.1424	0
+
+Position +****************************** 153:-5:1.6 at time 9.5
+0x211d570
+Throughput	9.5	36.8256	0
+
+Position +****************************** 170:-5:1.6 at time 10.5
+0x211d570
+Throughput	10.5	35.6608	0
+
+Position +****************************** 187:-5:1.6 at time 11.5
+0x211d570
+Throughput	11.5	34.6304	0
+
+Position +****************************** 204:-5:1.6 at time 12.5
+0x211d570
+Throughput	12.5	35.5264	0
+
+Position +****************************** 221:-5:1.6 at time 13.5
+0x211d570
+Throughput	13.5	35.5376	0
+
+Position +****************************** 238:-5:1.6 at time 14.5
+0x211d570
+Throughput	14.5	35.5264	0
+
+Position +****************************** 255:-5:1.6 at time 15.5
+0x211d570
+Throughput	15.5	35.5264	0
+
+Position +****************************** 272:-5:1.6 at time 16.5
+0x211d570
+Throughput	16.5	35.5376	0
+
+UE register to enb 3
+DoNotifyRandomAccessSuccessful at time 16.6483
+Position +****************************** 289:-5:1.6 at time 17.5
+0x211d570
+Throughput	17.5	27.6752	0
+
+Position +****************************** 306:-5:1.6 at time 18.5
+0x211d570
+Throughput	18.5	23.5984	0
+
+Position +****************************** 323:-5:1.6 at time 19.5
+0x211d570
+Throughput	19.5	5.712	0
+
+Position +****************************** 340:-5:1.6 at time 20.5
+0x211d570
+Throughput	20.5	12.7456	0
+
+Position +****************************** 357:-5:1.6 at time 21.5
+0x211d570
+Throughput	21.5	20.6416	0
+
+Position +****************************** 374:-5:1.6 at time 22.5
+0x211d570
+Throughput	22.5	43.3328	0
+
+Position +****************************** 391:-5:1.6 at time 23.5
+0x211d570
+Throughput	23.5	30.3408	0
+
+Position +****************************** 408:-5:1.6 at time 24.5
+0x211d570
+Throughput	24.5	38.6736	0
+
+Position +****************************** 425:-5:1.6 at time 25.5
+0x211d570
+Throughput	25.5	38.136	0
+
+Position +****************************** 442:-5:1.6 at time 26.5
+0x211d570
+Throughput	26.5	38.8528	0
+
+Position +****************************** 459:-5:1.6 at time 27.5
+0x211d570
+Throughput	27.5	74.7712	0
+
+Position +****************************** 476:-5:1.6 at time 28.5
+0x211d570
+Throughput	28.5	40.6224	0
+
+Position +****************************** 493:-5:1.6 at time 29.5
+0x211d570
+Throughput	29.5	12.4096	0
+
