@@ -19,7 +19,7 @@
 ### Requirements
 > pip 안깔려 있으면 설치 `sudo apt-get install python-pip`  
 > python setup tools 업그레이드 `pip install --upgrade setuptools`  
-> GCC-5, G++-5 버전 설치 
+> GCC-5, G++-5 버전 설치
 ```
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get update
@@ -70,7 +70,24 @@ patch < patch.diff
 
 6. Modify some files and build with bake
 ```
-TODO
+cd $HOME/dce/source/ns-3-dce
+rm wscript
+wget https://raw.githubusercontent.com/parksjin01/2018_USA/master/Modification/wscript
+
+cd model
+rm unix-datagram-socket-fd.cc
+wget https://github.com/parksjin01/2018_USA/blob/master/Modification/unix-datagram-socket-fd.cc
+
+cd ../test/addons
+rm dce-linux-ip6-test.cc
+wget https://raw.githubusercontent.com/parksjin01/2018_USA/master/Modification/dce-linux-ip6-test.cc
+
+cd $HOME/dce/source/ns-3.28/src/mmwave/model
+rm mmwave-beamforming.cc
+wget https://github.com/parksjin01/2018_USA/blob/master/Modification/mmwave-beamforming.cc
+
+cd $HOME/dce
+bake.py build
 ```
 
 7. Replace net-next-nuse-4.4.0 folder
@@ -108,12 +125,13 @@ tar jxf iproute2-2.6.38.tar.bz2
 cd iproute2-2.6.38
 cp $HOME/dce/source/ns-3-dce/utils/iproute-2.6.38-fix-01.patch ./
 patch -p1 -i iproute-2.6.38-fix-01.patch
-TODO (NEED CHANGE FILE)
+rm Makefile
+wget https://raw.githubusercontent.com/parksjin01/2018_USA/master/Modification/Makefile
 make clean
 LDFLAGS=-pie make CCOPTS='-fpic -D_GNU_SOURCE -O0 -U_FORTIFY_SOURCE'
 ```
 
-10. Reconfigure DCE 
+10. Reconfigure DCE
 ```
 export DCE_PATH=$HOME/dce/source/net-next-nuse-4.4.0:$HOME/dce/source/iproute2-2.6.38/ip
 cd $HOME/dce/source/ns-3-dce
