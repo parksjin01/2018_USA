@@ -115,7 +115,7 @@ END
 make defconfig ARCH=lib
 make library ARCH=lib
 mv liblinux.so liblinux0.so
-ln -s $HOME/net-next-nuse-4.4.0/arch/lib/tools/libsim-linux.so $HOME/net-next-nuse-4.4.0/liblinux.so
+ln -s $HOME/dce/source/net-next-nuse-4.4.0/arch/lib/tools/libsim-linux.so $HOME/dce/source/net-next-nuse-4.4.0/liblinux.so
 ```
 
 9. Install and patch new iproute2 program
