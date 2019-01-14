@@ -93,6 +93,7 @@ bake.py build
 
 7. Replace net-next-nuse-4.4.0 folder
 ```
+cd $HOME/dce/source
 sudo rm -r net-next-nuse-4.4.0
 git clone -b mptcp_trunk_libos https://github.com/libos-nuse/net-next-nuse.git
 mv net-next-nuse net-next-nuse-4.4.0
