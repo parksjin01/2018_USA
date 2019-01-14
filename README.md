@@ -59,7 +59,7 @@ bake.py download
 cd $HOME/dce/source
 sudo rm -r ns-3.28
 git clone https://github.com/parksjin01/temp_ns3-mmwave.git
-mv ns3-mmwave ns-3.28
+mv temp_ns3-mmwave ns-3.28
 ```
 
 5. Apply patch files
