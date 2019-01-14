@@ -122,6 +122,7 @@ ln -s $HOME/dce/source/net-next-nuse-4.4.0/arch/lib/tools/libsim-linux.so $HOME/
 
 9. Install and patch new iproute2 program
 ```
+cd $HOME/dce/source
 wget http://ftp.osuosl.org/pub/clfs/conglomeration/iproute2/iproute2-2.6.38.tar.bz2
 tar jxf iproute2-2.6.38.tar.bz2
 cd iproute2-2.6.38
