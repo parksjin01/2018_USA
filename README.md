@@ -77,7 +77,7 @@ wget https://raw.githubusercontent.com/parksjin01/2018_USA/master/Modification/w
 
 cd model
 rm unix-datagram-socket-fd.cc
-wget https://raw.github.com/parksjin01/2018_USA/blob/master/Modification/unix-datagram-socket-fd.cc
+wget https://raw.githubusercontent.com/parksjin01/2018_USA/master/Modification/unix-datagram-socket-fd.cc
 
 cd ../test/addons
 rm dce-linux-ip6-test.cc
@@ -85,7 +85,7 @@ wget https://raw.githubusercontent.com/parksjin01/2018_USA/master/Modification/d
 
 cd $HOME/dce/source/ns-3.28/src/mmwave/model
 rm mmwave-beamforming.cc
-wget https://raw.github.com/parksjin01/2018_USA/blob/master/Modification/mmwave-beamforming.cc
+wget https://raw.githubusercontent.com/parksjin01/2018_USA/master/Modification/mmwave-beamforming.cc
 
 cd $HOME/dce
 bake.py build
