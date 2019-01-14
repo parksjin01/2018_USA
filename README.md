@@ -65,7 +65,7 @@ mv temp_ns3-mmwave ns-3.28
 5. Apply patch files
 ```
 cd $HOME/dce/source/ns-3-dce/model
-cp ../../ns-3.28/utils/mmWave-dce18-patch.diff ./patch.diff
+wget https://raw.githubusercontent.com/parksjin01/2018_USA/master/Modification/patch.diff
 patch < patch.diff
 ```
 
