@@ -50,7 +50,7 @@ cd dce
 
 3. Configure version of DCE and download DCE
 ```
-bake.py configure -e dce-ns3-1.10
+bake.py configure -e dce-linux-1.10
 bake.py download
 ```
 
